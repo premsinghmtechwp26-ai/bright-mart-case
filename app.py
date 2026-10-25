@@ -23,4 +23,4 @@ if st.button('Predict Sales'):
     prediction = model.predict(features)[0]
     
     # Display the result
-    st.success(f'Estimated Sales: {prediction:.2f} units')
+    st.success(f'Estimated Sales: {prediction:.2f} M')
